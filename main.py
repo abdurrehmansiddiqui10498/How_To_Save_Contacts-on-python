@@ -1,7 +1,7 @@
-contacts = {"papa":""}
+contacts = {}
 while True:
  print("Choose any of the following options")
- print("\n1. Add Contact\n2. View Contacts\n3. Delete Contact\n4. Exit\n5. Update")
+ print("\n1. Add Contact\n2. View Contacts\n3. Delete Contact\n4. Exit")
  choice = int(input("Enter your choice:"))
  if choice == 1:
   name = input("Enter contact name:")
